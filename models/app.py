@@ -3,9 +3,9 @@ import pandas as pd
 import joblib
 
 
-model=joblib.load('E:\Githubb\git_repo_ML\heart_attack_prediction\models\KNN_heart.pkl')
-scaler=joblib.load('E:\Githubb\git_repo_ML\heart_attack_prediction\models\scaler.pkl')
-expected_columns=joblib.load('E:\Githubb\git_repo_ML\heart_attack_prediction\models\columns.pkl')
+model=joblib.load(r'E:\Githubb\git_repo_ML\heart_attack_prediction\models\KNN_heart.pkl')
+scaler=joblib.load(r'E:\Githubb\git_repo_ML\heart_attack_prediction\models\scaler.pkl')
+expected_columns=joblib.load(r'E:\Githubb\git_repo_ML\heart_attack_prediction\models\columns.pkl')
 
 st.title('Heart strock prediction (by farhan)')
 st.markdown('provide the following details')
